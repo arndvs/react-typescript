@@ -10,7 +10,11 @@ function App() {
             <div className="my-12">
                 <h1 className="text-3xl font-bold my-8 ">1. Name Tag</h1>
                 <NameTag />
+                <div className="mt-8"><a className="bold text-blue-500" href="https://stevekinney.github.io/react-and-typescript/commonly-used-props">Commonly-Used Props</a></div>
             </div>
+            <div>
+
+                </div>
             <hr></hr>
             <div className="my-12">
                 <h1 className="text-3xl font-bold my-8 ">2. TypeScript Children</h1>
@@ -26,7 +30,6 @@ function App() {
                 </div>
             </div>
             <hr></hr>
-
       </div>
     </div>
   );
