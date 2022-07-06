@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import NameTag from "./components/NameTag"
 import StateToggle from "./components/StateToggle"
+import CounterUseEffect from "./components/CounterUseEffect"
 import TypeScriptChildren from './components/TypeScriptChildren';
+import CharacterCard from './components/characterCard/CharacterCard';
 
 function App() {
   return (
@@ -28,6 +30,20 @@ function App() {
                 <h1 className="text-3xl font-bold my-8 ">3. Toggle - useState Hook</h1>
                 <div className="mx-auto w-1/2">
                     <StateToggle />
+                </div>
+            </div>
+            <hr></hr>
+            <div className="my-12">
+                <h1 className="text-3xl font-bold my-8 ">3. Character Cards</h1>
+                <div className="mx-auto w-1/2">
+                    <CharacterCard />
+                </div>
+            </div>
+            <hr></hr>
+            <div className="my-12">
+                <h1 className="text-3xl font-bold my-8 ">4. Counter - useEffect</h1>
+                <div className="mx-auto w-1/2">
+                    <CounterUseEffect />
                 </div>
             </div>
             <hr></hr>
