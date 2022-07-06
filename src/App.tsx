@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NameTag from "./components/NameTag"
+import StateToggle from "./components/StateToggle"
 import TypeScriptChildren from './components/TypeScriptChildren';
 
 function App() {
@@ -24,9 +25,9 @@ function App() {
             </div>
             <hr></hr>
             <div className="my-12">
-                <h1 className="text-3xl font-bold my-8 ">3. </h1>
+                <h1 className="text-3xl font-bold my-8 ">3. Toggle - useState Hook</h1>
                 <div className="mx-auto w-1/2">
-
+                    <StateToggle />
                 </div>
             </div>
             <hr></hr>
