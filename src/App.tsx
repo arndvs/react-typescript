@@ -5,6 +5,9 @@ import StateToggle from "./components/StateToggle"
 import CounterUseEffect from "./components/CounterUseEffect"
 import TypeScriptChildren from './components/TypeScriptChildren';
 import CharacterCard from './components/characterCard/CharacterCard';
+import IncidentReportClass from "./components/IncidentReportClass"
+import IncidentReportHooks from "./components/IncidentReportHooks"
+import DogFacts from './components/dogFacts/DogFacts';
 
 function App() {
   return (
@@ -44,6 +47,27 @@ function App() {
                 <h1 className="text-3xl font-bold my-8 ">4. Counter - useEffect</h1>
                 <div className="mx-auto w-1/2">
                     <CounterUseEffect />
+                </div>
+            </div>
+            <hr></hr>
+            <div className="my-12">
+                <h1 className="text-3xl font-bold my-8 ">5. Incident Report - Class Example</h1>
+                <div className="mx-auto w-1/2">
+                    <IncidentReportClass />
+                </div>
+            </div>
+            <hr></hr>
+            <div className="my-12">
+                <h1 className="text-3xl font-bold my-8 ">6. Incident Report - Hooks Example</h1>
+                <div className="mx-auto w-1/2">
+                    <IncidentReportHooks />
+                </div>
+            </div>
+            <hr></hr>
+            <div className="my-12">
+                <h1 className="text-3xl font-bold my-8 ">7. Dog Facts</h1>
+                <div className="mx-auto w-1/2">
+                    <DogFacts />
                 </div>
             </div>
             <hr></hr>
